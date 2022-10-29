@@ -1,0 +1,80 @@
+:root{
+    --primeira-cor: rgb(99, 92, 92);
+    --segunda-cor: rgb(255, 255, 255);
+    --terceira-cor: rgb(240, 65, 65);
+}
+
+body{
+    background-color: var(--primeira-cor);
+    font-size: 24px;  
+}
+
+#corpo{
+    height: 450px;
+    width: 360px;
+    margin: 100px auto;
+    background: var(--segunda-cor);
+    box-shadow: 5px 5px 5px var(--terceira-cor);
+    border-radius: 20px;
+}
+
+.titulo{
+    background: rgb(177, 64, 64);
+    color: var(--segunda-cor);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.numero{
+    padding-left: 90px;
+}
+
+.quadradoNumero{
+    background-color: var(--segunda-cor);
+    width: 50px;
+    padding: 3px 3px 3px 3px;
+}
+
+.quadradoNumero:focus{
+    border: 3px solid var(--terceira-cor);
+    outline: none;
+}
+
+.botao{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--terceira-cor);
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.divisores{
+    margin: 30px;
+    padding-left: 15px;
+}
+
+.resposta1{
+    padding: center;
+    margin: 30px;
+}
+
+.resposta2{
+    padding: center;
+    padding-left: 100px;
+    margin: 30px;
+}
+
+.resposta3{
+    padding: center;
+    padding-left: 10px;
+    margin: 30px ;
+}
